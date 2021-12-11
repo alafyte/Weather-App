@@ -56,3 +56,11 @@ button:hover {
 h1.temp {
     margin: 0;
 }
+.flex {
+    display: flex;
+    align-items: center;
+}
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
