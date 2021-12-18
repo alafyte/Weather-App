@@ -1,0 +1,35 @@
+{"coord": {"lon":27.5667,"lat":53.9},
+"weather":[
+    {"id":600,
+    "main":"Snow",
+    "description":"небольшой снег",
+    "icon":"13n"} ],
+
+    "base":"stations",
+    "main":
+    {"temp":-0.14,
+    "feels_like":-5.21,
+    "temp_min":-0.15,
+    "temp_max":-0.14,
+    "pressure":1015,
+    "humidity":97,
+    "sea_level":1015,
+    "grnd_level":988},
+
+    "visibility":27,
+
+    "wind": {"speed":5.2,
+    "deg":258,
+    "gust":10.89},
+    "snow": {"1h":0.31},
+    "clouds":{"all":100},
+    "dt":1639842324,
+    "sys": {"type":1,
+    "id":8939,
+    "country":"BY",
+    "sunrise":1639808662,
+    "sunset":1639835302},
+    "timezone":10800,
+    "id":625144,
+    "name":"Минск",
+    "cod":200}
