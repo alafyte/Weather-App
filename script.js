@@ -13,7 +13,7 @@ setInterval(() => {
     
     timeEl.innerHTML = (hour < 10? '0'+ hour : hour) + ':' + (minutes < 10? '0'+ minutes: minutes)
 
-    dateEl.innerHTML = days[day] + ', ' + date+ ' ' + months[month]
+    dateEl.innerHTML = days[day] + ', ' + date + ' ' + months[month]
 
 }, 1000);
 
@@ -28,7 +28,7 @@ let weather = {
         const { name } = data;
         const { icon, description } = data.weather[0];
         const { temp, humidity, feels_like } = data.main;
-        const { speed } = data.wind;
+        const { speed } = data.wind;    
         document.querySelector(".city").innerText = "Погода в городе " + name;
         document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + ".png";
         document.querySelector(".description").innerText = description;
