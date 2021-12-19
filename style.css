@@ -86,20 +86,21 @@ h1.temp, h5 .feels_like {
     }
     .card {
         display: flex;
+        flex-flow: row wrap;
         justify-content: space-between;
         background: #000000d0;
         color: white;
         padding: 2em;
         width: 95%;
         max-width: 420px;
-        margin: auto;
+        margin-top: 10%;
     }
     .description {
         margin-left: 0;
     }
     .flex1 {
         display: flex;
-        align-items: left;
+        align-items: center;
         margin: 0;
     }
     .weather, h1.temp, h5 .feels_like {
