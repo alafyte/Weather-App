@@ -30,7 +30,7 @@ let weather = {
         this.fetchWeather(document.querySelector(".search-bar").value);
     }, /*Конец модуля */
     /*Модуль отображения инфы на странице, возьму себе */
-    displayWeather: function(data)
+    displayWeather: function(data)  
     {
         const { name } = data;
         const { icon, description } = data.weather[0];
@@ -47,7 +47,6 @@ let weather = {
     }
 };
 /*Конец модуля */
-
 /*Вот еще кусок для Леши*/
 document.querySelector(".search button").addEventListener("click", function() {
     weather.search();
