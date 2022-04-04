@@ -34,8 +34,8 @@ let weather = {
         document.querySelector(".city").innerText = "Погода в городе " + name;
         document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + ".png";
         document.querySelector(".description").innerText = description;
-        document.querySelector(".temp").innerText = temp + "°C";
-        document.querySelector(".feels_like").innerText = "Ощущается как " + feels_like + "°C";
+        document.querySelector(".temp").innerText = Math.round(temp) + "°C";
+        document.querySelector(".feels_like").innerText = "Ощущается как " + Math.round(feels_like) + "°C";
         document.querySelector(".humidity").innerText = "Влажность: " + humidity + "%";
         document.querySelector(".wind").innerText = "Скорость ветра: " + speed + "м/с";
         document.querySelector(".weather").classList.remove("loading");
